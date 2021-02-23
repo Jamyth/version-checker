@@ -4,6 +4,16 @@
   "license": "MIT",
   "author": "Jamyth Luk",
   "private": false,
+  "repository": {
+    "url": "https://github.com/Jamyth/version-checker"
+  },
+  "keywords": [
+    "node",
+    "packages",
+    "version",
+    "version checker",
+    "semver"
+  ],
   "devDependencies": {
     "@types/node": "^14.14.31",
     "@types/semver": "^7.3.4",
