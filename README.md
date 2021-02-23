@@ -1,4 +1,4 @@
-# **Node Version Checker**
+# **Version Checker**
 
 This package aims to provide a consistent version checking service while performing particular tasks.
 
@@ -21,9 +21,9 @@ This package come to rescue, you can add the checker wherever you want:
 ## Installation
 
 ```bash
-> yarn add node-version-checker
+> yarn add @iamyth/version-checker
 // or
-> npm install node-version-checker
+> npm install @iamyth/version-checker
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ This package provides two ways to use.
 Use JS/TS script
 
 ```typescript
-import { VersionChecker } from "node-version-checker";
+import { VersionChecker } from "@iamyth/version-checker";
 import path from "path";
 
 new VersionChecker({
@@ -54,7 +54,7 @@ or use in command line
 ```json
 {
   "scripts": {
-    "start": "node-version-checker directory='./' && some-start-scripts"
+    "start": "@iamyth/version-checker directory='./' && some-start-scripts"
   }
 }
 ```

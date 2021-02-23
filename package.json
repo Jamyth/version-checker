@@ -1,8 +1,9 @@
 {
-  "name": "node-version-checker",
+  "name": "@iamyth/version-checker",
   "version": "1.0.0",
   "license": "MIT",
   "author": "Jamyth Luk",
+  "private": false,
   "devDependencies": {
     "@types/node": "^14.14.31",
     "@types/semver": "^7.3.4",
